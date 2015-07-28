@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGP-8q-idQ">
+                                <rect key="frame" x="210" y="209" width="180" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Pft-LZ-7Sl"/>
+                                    <constraint firstAttribute="width" constant="180" id="sf8-sm-XFc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Default Appearance">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zm-2N-7kZ">
+                                <rect key="frame" x="210" y="275" width="180" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="dMr-oF-LEX"/>
+                                    <constraint firstAttribute="width" constant="180" id="lg4-fb-2ZA"/>
+                                </constraints>
+                                <state key="normal" title="Rounded Corner">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qU5-cN-GEs">
+                                <rect key="frame" x="210" y="341" width="180" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="4QP-Ye-Ukv"/>
+                                    <constraint firstAttribute="height" constant="50" id="OgQ-BO-LBv"/>
+                                </constraints>
+                                <state key="normal" title="Another Color">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="4zm-2N-7kZ" secondAttribute="centerX" id="63v-6o-sCW"/>
+                            <constraint firstAttribute="centerX" secondItem="qU5-cN-GEs" secondAttribute="centerX" id="6vb-Oa-84X"/>
+                            <constraint firstAttribute="centerY" secondItem="4zm-2N-7kZ" secondAttribute="centerY" id="7wo-OV-Bxt"/>
+                            <constraint firstAttribute="centerX" secondItem="VGP-8q-idQ" secondAttribute="centerX" id="Jtb-1K-IfQ"/>
+                            <constraint firstItem="VGP-8q-idQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="Jwi-3X-bQ1"/>
+                            <constraint firstItem="qU5-cN-GEs" firstAttribute="top" secondItem="4zm-2N-7kZ" secondAttribute="bottom" constant="16" id="bDf-9D-vxf"/>
+                            <constraint firstItem="4zm-2N-7kZ" firstAttribute="top" secondItem="VGP-8q-idQ" secondAttribute="bottom" constant="16" id="kEv-eB-B0Y"/>
+                            <constraint firstAttribute="centerX" secondItem="VGP-8q-idQ" secondAttribute="centerX" id="qC4-zr-8gk"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Jtb-1K-IfQ"/>
+                                <exclude reference="Jwi-3X-bQ1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="blueButton" destination="VGP-8q-idQ" id="CR5-9I-cYy"/>
+                        <outlet property="roundedCornerButton" destination="4zm-2N-7kZ" id="SVk-ts-a0X"/>
+                        <outlet property="warmButton" destination="qU5-cN-GEs" id="ysd-4T-1q2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

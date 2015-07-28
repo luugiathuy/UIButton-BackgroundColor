@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42F5691062568AD141AAA4DB /* libPods-UIButtonBackgroundColorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C622E712FF2EC8D7216C73 /* libPods-UIButtonBackgroundColorDemo.a */; };
+		B1BD6D541B67CD2900296298 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BD6D531B67CD2900296298 /* main.m */; };
+		B1BD6D571B67CD2900296298 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BD6D561B67CD2900296298 /* AppDelegate.m */; };
+		B1BD6D5A1B67CD2900296298 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BD6D591B67CD2900296298 /* ViewController.m */; };
+		B1BD6D5D1B67CD2900296298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1BD6D5B1B67CD2900296298 /* Main.storyboard */; };
+		B1BD6D5F1B67CD2900296298 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1BD6D5E1B67CD2900296298 /* Images.xcassets */; };
+		B1BD6D621B67CD2900296298 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1BD6D601B67CD2900296298 /* LaunchScreen.xib */; };
+		B1BD6D6E1B67CD2900296298 /* UIButtonBackgroundColorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BD6D6D1B67CD2900296298 /* UIButtonBackgroundColorDemoTests.m */; };
+		EAAFADE34A8E000D0A64D85C /* libPods-UIButtonBackgroundColorDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6D766EB83F49F282609E65 /* libPods-UIButtonBackgroundColorDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1BD6D681B67CD2900296298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1BD6D461B67CD2900296298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1BD6D4D1B67CD2900296298;
+			remoteInfo = UIButtonBackgroundColorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A6D766EB83F49F282609E65 /* libPods-UIButtonBackgroundColorDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIButtonBackgroundColorDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76112FBA7440A70126246305 /* Pods-UIButtonBackgroundColorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButtonBackgroundColorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIButtonBackgroundColorDemo/Pods-UIButtonBackgroundColorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7834D8EC2D655B2D03903E8B /* Pods-UIButtonBackgroundColorDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButtonBackgroundColorDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIButtonBackgroundColorDemoTests/Pods-UIButtonBackgroundColorDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1BD6D4E1B67CD2900296298 /* UIButtonBackgroundColorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIButtonBackgroundColorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BD6D521B67CD2900296298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1BD6D531B67CD2900296298 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1BD6D551B67CD2900296298 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1BD6D561B67CD2900296298 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1BD6D581B67CD2900296298 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1BD6D591B67CD2900296298 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1BD6D5C1B67CD2900296298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1BD6D5E1B67CD2900296298 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B1BD6D611B67CD2900296298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B1BD6D671B67CD2900296298 /* UIButtonBackgroundColorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonBackgroundColorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BD6D6C1B67CD2900296298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1BD6D6D1B67CD2900296298 /* UIButtonBackgroundColorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonBackgroundColorDemoTests.m; sourceTree = "<group>"; };
+		B1BD6D771B67D7CF00296298 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		B8BFB8DAB6B2C42562329EC7 /* Pods-UIButtonBackgroundColorDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButtonBackgroundColorDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIButtonBackgroundColorDemoTests/Pods-UIButtonBackgroundColorDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D09A5FEBD96800A41D1CAE3A /* Pods-UIButtonBackgroundColorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButtonBackgroundColorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIButtonBackgroundColorDemo/Pods-UIButtonBackgroundColorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D6C622E712FF2EC8D7216C73 /* libPods-UIButtonBackgroundColorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIButtonBackgroundColorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1BD6D4B1B67CD2900296298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F5691062568AD141AAA4DB /* libPods-UIButtonBackgroundColorDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD6D641B67CD2900296298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAFADE34A8E000D0A64D85C /* libPods-UIButtonBackgroundColorDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5503DC0CFCDE756DB9AE323 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76112FBA7440A70126246305 /* Pods-UIButtonBackgroundColorDemo.debug.xcconfig */,
+				D09A5FEBD96800A41D1CAE3A /* Pods-UIButtonBackgroundColorDemo.release.xcconfig */,
+				7834D8EC2D655B2D03903E8B /* Pods-UIButtonBackgroundColorDemoTests.debug.xcconfig */,
+				B8BFB8DAB6B2C42562329EC7 /* Pods-UIButtonBackgroundColorDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1BD6D451B67CD2900296298 = {
+			isa = PBXGroup;
+			children = (
+				B1BD6D501B67CD2900296298 /* UIButtonBackgroundColorDemo */,
+				B1BD6D6A1B67CD2900296298 /* UIButtonBackgroundColorDemoTests */,
+				B1BD6D4F1B67CD2900296298 /* Products */,
+				A5503DC0CFCDE756DB9AE323 /* Pods */,
+				EAB6F6496192ECD32B81757C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1BD6D4F1B67CD2900296298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD6D4E1B67CD2900296298 /* UIButtonBackgroundColorDemo.app */,
+				B1BD6D671B67CD2900296298 /* UIButtonBackgroundColorDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1BD6D501B67CD2900296298 /* UIButtonBackgroundColorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD6D551B67CD2900296298 /* AppDelegate.h */,
+				B1BD6D561B67CD2900296298 /* AppDelegate.m */,
+				B1BD6D581B67CD2900296298 /* ViewController.h */,
+				B1BD6D591B67CD2900296298 /* ViewController.m */,
+				B1BD6D771B67D7CF00296298 /* Utils.h */,
+				B1BD6D5B1B67CD2900296298 /* Main.storyboard */,
+				B1BD6D5E1B67CD2900296298 /* Images.xcassets */,
+				B1BD6D601B67CD2900296298 /* LaunchScreen.xib */,
+				B1BD6D511B67CD2900296298 /* Supporting Files */,
+			);
+			path = UIButtonBackgroundColorDemo;
+			sourceTree = "<group>";
+		};
+		B1BD6D511B67CD2900296298 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD6D521B67CD2900296298 /* Info.plist */,
+				B1BD6D531B67CD2900296298 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1BD6D6A1B67CD2900296298 /* UIButtonBackgroundColorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD6D6D1B67CD2900296298 /* UIButtonBackgroundColorDemoTests.m */,
+				B1BD6D6B1B67CD2900296298 /* Supporting Files */,
+			);
+			path = UIButtonBackgroundColorDemoTests;
+			sourceTree = "<group>";
+		};
+		B1BD6D6B1B67CD2900296298 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD6D6C1B67CD2900296298 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAB6F6496192ECD32B81757C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6C622E712FF2EC8D7216C73 /* libPods-UIButtonBackgroundColorDemo.a */,
+				2A6D766EB83F49F282609E65 /* libPods-UIButtonBackgroundColorDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1BD6D4D1B67CD2900296298 /* UIButtonBackgroundColorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BD6D711B67CD2900296298 /* Build configuration list for PBXNativeTarget "UIButtonBackgroundColorDemo" */;
+			buildPhases = (
+				EE09327C948B153BB0EDA69E /* Check Pods Manifest.lock */,
+				B1BD6D4A1B67CD2900296298 /* Sources */,
+				B1BD6D4B1B67CD2900296298 /* Frameworks */,
+				B1BD6D4C1B67CD2900296298 /* Resources */,
+				8EC8F573E50F7D8A19B322C0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIButtonBackgroundColorDemo;
+			productName = UIButtonBackgroundColorDemo;
+			productReference = B1BD6D4E1B67CD2900296298 /* UIButtonBackgroundColorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1BD6D661B67CD2900296298 /* UIButtonBackgroundColorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BD6D741B67CD2900296298 /* Build configuration list for PBXNativeTarget "UIButtonBackgroundColorDemoTests" */;
+			buildPhases = (
+				648C718704428D46F1DBD73D /* Check Pods Manifest.lock */,
+				B1BD6D631B67CD2900296298 /* Sources */,
+				B1BD6D641B67CD2900296298 /* Frameworks */,
+				B1BD6D651B67CD2900296298 /* Resources */,
+				8254A07EDA3E9899906804AC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1BD6D691B67CD2900296298 /* PBXTargetDependency */,
+			);
+			name = UIButtonBackgroundColorDemoTests;
+			productName = UIButtonBackgroundColorDemoTests;
+			productReference = B1BD6D671B67CD2900296298 /* UIButtonBackgroundColorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1BD6D461B67CD2900296298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Luu Gia Thuy";
+				TargetAttributes = {
+					B1BD6D4D1B67CD2900296298 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B1BD6D661B67CD2900296298 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B1BD6D4D1B67CD2900296298;
+					};
+				};
+			};
+			buildConfigurationList = B1BD6D491B67CD2900296298 /* Build configuration list for PBXProject "UIButtonBackgroundColorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1BD6D451B67CD2900296298;
+			productRefGroup = B1BD6D4F1B67CD2900296298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1BD6D4D1B67CD2900296298 /* UIButtonBackgroundColorDemo */,
+				B1BD6D661B67CD2900296298 /* UIButtonBackgroundColorDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1BD6D4C1B67CD2900296298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BD6D5D1B67CD2900296298 /* Main.storyboard in Resources */,
+				B1BD6D621B67CD2900296298 /* LaunchScreen.xib in Resources */,
+				B1BD6D5F1B67CD2900296298 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD6D651B67CD2900296298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		648C718704428D46F1DBD73D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8254A07EDA3E9899906804AC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIButtonBackgroundColorDemoTests/Pods-UIButtonBackgroundColorDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC8F573E50F7D8A19B322C0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIButtonBackgroundColorDemo/Pods-UIButtonBackgroundColorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE09327C948B153BB0EDA69E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1BD6D4A1B67CD2900296298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BD6D5A1B67CD2900296298 /* ViewController.m in Sources */,
+				B1BD6D571B67CD2900296298 /* AppDelegate.m in Sources */,
+				B1BD6D541B67CD2900296298 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD6D631B67CD2900296298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BD6D6E1B67CD2900296298 /* UIButtonBackgroundColorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1BD6D691B67CD2900296298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1BD6D4D1B67CD2900296298 /* UIButtonBackgroundColorDemo */;
+			targetProxy = B1BD6D681B67CD2900296298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1BD6D5B1B67CD2900296298 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1BD6D5C1B67CD2900296298 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1BD6D601B67CD2900296298 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1BD6D611B67CD2900296298 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1BD6D6F1B67CD2900296298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1BD6D701B67CD2900296298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1BD6D721B67CD2900296298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76112FBA7440A70126246305 /* Pods-UIButtonBackgroundColorDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIButtonBackgroundColorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1BD6D731B67CD2900296298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09A5FEBD96800A41D1CAE3A /* Pods-UIButtonBackgroundColorDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIButtonBackgroundColorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B1BD6D751B67CD2900296298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7834D8EC2D655B2D03903E8B /* Pods-UIButtonBackgroundColorDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIButtonBackgroundColorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIButtonBackgroundColorDemo.app/UIButtonBackgroundColorDemo";
+			};
+			name = Debug;
+		};
+		B1BD6D761B67CD2900296298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BFB8DAB6B2C42562329EC7 /* Pods-UIButtonBackgroundColorDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIButtonBackgroundColorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIButtonBackgroundColorDemo.app/UIButtonBackgroundColorDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1BD6D491B67CD2900296298 /* Build configuration list for PBXProject "UIButtonBackgroundColorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BD6D6F1B67CD2900296298 /* Debug */,
+				B1BD6D701B67CD2900296298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1BD6D711B67CD2900296298 /* Build configuration list for PBXNativeTarget "UIButtonBackgroundColorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BD6D721B67CD2900296298 /* Debug */,
+				B1BD6D731B67CD2900296298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1BD6D741B67CD2900296298 /* Build configuration list for PBXNativeTarget "UIButtonBackgroundColorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BD6D751B67CD2900296298 /* Debug */,
+				B1BD6D761B67CD2900296298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1BD6D461B67CD2900296298 /* Project object */;
+}

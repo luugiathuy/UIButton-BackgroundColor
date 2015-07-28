@@ -1,0 +1,14 @@
+PODS:
+  - UIButton+BackgroundColor (0.1)
+
+DEPENDENCIES:
+  - UIButton+BackgroundColor (from `../UIButton+BackgroundColor.podspec`)
+
+EXTERNAL SOURCES:
+  UIButton+BackgroundColor:
+    :path: "../UIButton+BackgroundColor.podspec"
+
+SPEC CHECKSUMS:
+  UIButton+BackgroundColor: 3997783e19c9f9777789d3b43fa561c4a8b9800a
+
+COCOAPODS: 0.38.2

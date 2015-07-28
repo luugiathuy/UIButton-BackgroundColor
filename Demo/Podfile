@@ -1,0 +1,17 @@
+source 'https://github.com/cocoapods/specs.git'
+
+platform :ios, '7.0'
+
+xcodeproj 'UIButtonBackgroundColorDemo'
+
+def install_pods
+	pod 'UIButton+BackgroundColor', :path => '../UIButton+BackgroundColor.podspec'
+end
+
+target :UIButtonBackgroundColorDemo do
+  install_pods
+end
+
+target :UIButtonBackgroundColorDemoTests, :exclusive => true do
+  install_pods
+end
