@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 	s.version      = "0.1"
 	s.summary      = "An extension for UIButton to set solid background color as background image"
 	s.homepage     = "https://github.com/luugiathuy/UIButton+BackgroundColor"
-	s.license      = 'BSD'
+	s.license      = 'MIT'
 	s.author       = { "Luu Gia Thuy" => "luugiathuy@gmail.com" }
 	s.social_media_url = "http://twitter.com/luugiathuy"
 	s.platform     = :ios
