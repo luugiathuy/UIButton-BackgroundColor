@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../UIButton+BackgroundColor.podspec"
 
 SPEC CHECKSUMS:
-  UIButton+BackgroundColor: 3997783e19c9f9777789d3b43fa561c4a8b9800a
+  UIButton+BackgroundColor: 8efb0ffc4f62026267ea70abe1503657f35f2895
 
 COCOAPODS: 0.38.2

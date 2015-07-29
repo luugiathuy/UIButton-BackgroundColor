@@ -20,14 +20,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5BEFD56FA008DD5652147C0455A6BDE6 /* PBXContainerItemProxy */ = {
+		7C2751690ADA5D7FFCC3E5B293EB8CF1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CBDBF7B8873558C0DB788884D3B1B39D;
 			remoteInfo = "UIButton+BackgroundColor";
 		};
-		D20CC057491076A4D589EEBF892464FE /* PBXContainerItemProxy */ = {
+		90CA6F22F5739CFAA51BC377AF759C2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -232,7 +232,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6C14657BFFA3A6E8F038B9C6CF9440DE /* PBXTargetDependency */,
+				54CA3E98A440ADC4981797A9D544ECD2 /* PBXTargetDependency */,
 			);
 			name = "Pods-UIButtonBackgroundColorDemoTests";
 			productName = "Pods-UIButtonBackgroundColorDemoTests";
@@ -266,7 +266,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5AD7530FD5E0E3A67851F7A79A24D294 /* PBXTargetDependency */,
+				59FBA9B6246839FE3E8C27F48DB81738 /* PBXTargetDependency */,
 			);
 			name = "Pods-UIButtonBackgroundColorDemo";
 			productName = "Pods-UIButtonBackgroundColorDemo";
@@ -331,17 +331,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5AD7530FD5E0E3A67851F7A79A24D294 /* PBXTargetDependency */ = {
+		54CA3E98A440ADC4981797A9D544ECD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UIButton+BackgroundColor";
 			target = CBDBF7B8873558C0DB788884D3B1B39D /* UIButton+BackgroundColor */;
-			targetProxy = D20CC057491076A4D589EEBF892464FE /* PBXContainerItemProxy */;
+			targetProxy = 7C2751690ADA5D7FFCC3E5B293EB8CF1 /* PBXContainerItemProxy */;
 		};
-		6C14657BFFA3A6E8F038B9C6CF9440DE /* PBXTargetDependency */ = {
+		59FBA9B6246839FE3E8C27F48DB81738 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UIButton+BackgroundColor";
 			target = CBDBF7B8873558C0DB788884D3B1B39D /* UIButton+BackgroundColor */;
-			targetProxy = 5BEFD56FA008DD5652147C0455A6BDE6 /* PBXContainerItemProxy */;
+			targetProxy = 90CA6F22F5739CFAA51BC377AF759C2F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
